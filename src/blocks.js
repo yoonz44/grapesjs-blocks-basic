@@ -15,7 +15,7 @@ export default function(editor, opt = {}) {
       justify-content: flex-start;
       align-items: stretch;
       flex-wrap: nowrap;
-      padding: 10px;
+      padding: 0px;
     }
     @media (max-width: 768px) {
       .${clsRow} {
@@ -25,7 +25,7 @@ export default function(editor, opt = {}) {
     : `
     .${clsRow} {
       display: table;
-      padding: 10px;
+      padding: 0px;
       width: 100%;
     }
     @media (max-width: 768px) {
